@@ -8,7 +8,7 @@ const Generate = () => {
   const [link, setLink] = useState('');
   const generateLink = () => {
     setLink(
-      `https://localhost:3000/birthday/${name}/${day}/${month}`
+      `https://birthday-countdown-seven.vercel.app/birthday/${name}/${day}/${month}`
     );
   };
   return (
